@@ -1,0 +1,51 @@
+chromepath="C:\\Eclipse_Job\\SeleniumProject\\Executables\\chromedriver.exe"
+firefoxpath="C:\\Eclipse_Job\\SeleniumProject\\Executables\\geckodriver.exe"
+//---Landing Page
+
+url=https://www.naukri.com/
+
+//LandingPage
+loginlink=xpath://*[@id="login_Layer"]
+
+//LoginPage 
+loginframe = xpath://*[@id="loginLBNew"]
+
+loginframe1=id:lgnFrmNew
+username= xpath://*[@id='eLogin' or @name = 'email']
+
+uname = daipayan.sarkar.25@gmail.com
+pass=Daipayan8!
+password=xpath://*[@id='pLogin' or @name ='PASSWORD']
+loginbtn=xpath://button[@value=\"Login\"]
+
+//---
+
+
+//seachPage
+searchxpath=id:qsb-keyskill-sugg 
+Expid=id:expDroope-experienceFor
+Expdrpxpath=xpath://*[@id="ul_expDroope-experience"]//li/a
+searchbtn=xpath://button[text()="SEARCH"]
+
+sortresult=xpath://span[text()="Personalized"]
+sortresLists =xpath://*[@class="sortBy"]//li
+
+//jobLists
+joblinks=xpath://*[@type="tuple"]//a[@class="content"]
+
+//Apply page on each button
+Applybtn= xpath://button[text()="Apply"]
+
+//UpdateProfile
+myNaukri=xpath://*[text()="My Naukri"]
+myNaukriBox=xpath://*[@class='rghtSec fr menu logged']//*[@class='subMenu c2']
+EditList= xpath://*[text()="My Naukri"]//following::a
+EditProfile=xpath://*[text()="My Naukri"]//following::a[text()="Edit Profile"]
+
+//Edit Profile page
+ResumeHeadlinetxt = xpath://*[@id="lazyResumeHead"]//div/span[text()="Resume Headline"]
+ResumeHeadlineEdit=xpath://*[@id="lazyResumeHead"]//div/span[text()="Edit"]
+Editform = xpath://form[@name="resumeHeadlineForm"]
+EditContentbox= xpath://*[@id="resumeHeadlineTxt"]
+Savebtn = xpath://button[@type="submit"][text()="Save"]
+

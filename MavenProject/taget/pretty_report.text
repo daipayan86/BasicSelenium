@@ -1,0 +1,6 @@
+Feature: Test facebook login
+
+  Scenario: Test FB Login with valid credentials [90m# f1.feature:2[0m
+    [32mGiven [0m[32mopen Firefox and go to fb application[0m  [90m# SmokeTestFB2.open_Firefox_and_go_to_fb_application()[0m
+    [32mWhen [0m[32mI enter valid username and password[0m     [90m# SmokeTestFB2.i_enter_valid_username_and_password()[0m
+    [32mThen [0m[32muser should be able to login[0m            [90m# SmokeTestFB2.user_should_be_able_to_login()[0m

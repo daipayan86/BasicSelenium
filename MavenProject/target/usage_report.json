@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^open Firefox and go to fb application$",
+    "steps": [
+      {
+        "name": "open Firefox and go to fb application",
+        "aggregatedDurations": {
+          "average": 11.230045482,
+          "median": 11.230045482
+        },
+        "durations": [
+          {
+            "duration": 11.230045482,
+            "location": "f1.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be able to login$",
+    "steps": [
+      {
+        "name": "user should be able to login",
+        "aggregatedDurations": {
+          "average": 0.346647152,
+          "median": 0.346647152
+        },
+        "durations": [
+          {
+            "duration": 0.346647152,
+            "location": "f1.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter valid username and password$",
+    "steps": [
+      {
+        "name": "I enter valid username and password",
+        "aggregatedDurations": {
+          "average": 3.22025057,
+          "median": 3.22025057
+        },
+        "durations": [
+          {
+            "duration": 3.22025057,
+            "location": "f1.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]

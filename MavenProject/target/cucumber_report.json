@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Test FB Login with valid credentials",
+        "description": "",
+        "id": "test-facebook-login;test-fb-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11230045482,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open Firefox and go to fb application",
+            "match": {
+              "location": "SmokeTestFB2.open_Firefox_and_go_to_fb_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3220250570,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter valid username and password",
+            "match": {
+              "location": "SmokeTestFB2.i_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 346647152,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be able to login",
+            "match": {
+              "location": "SmokeTestFB2.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test facebook login",
+    "description": "",
+    "id": "test-facebook-login",
+    "keyword": "Feature",
+    "uri": "f1.feature"
+  }
+]
